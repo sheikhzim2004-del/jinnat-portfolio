@@ -102,7 +102,7 @@ export default function HeroSection() {
 
                         <div className="absolute bottom-2 -right-4 sm:-right-8 animate-float-slow">
                             <div className="bg-gradient-to-r from-accent-blue to-accent-cyan text-white text-xs sm:text-sm font-semibold px-3 py-1.5 rounded-full shadow-[0_0_20px_rgba(6,182,212,0.4)]">
-                                6+ Full-Stack Projects
+                                5+ Full-Stack Projects
                             </div>
                         </div>
                     </div>

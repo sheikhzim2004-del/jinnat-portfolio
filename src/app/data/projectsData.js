@@ -1,6 +1,17 @@
 export const projectsData = [
     {
         id: 1,
+        title: "Fable - Ebook Publishing & Marketplace Platform",
+        description: "A Modern Digital Publishing Ecosystem for Writers, Readers, and Admins.",
+        image: "/images/project-1.png",
+        tags: ["Next.js", "React", "MongoDB", "Tailwind CSS", "Framer Motion", "HeroUI", "Stripe"],
+
+        clientCode: "https://github.com/sheikhzim2004-del/fable",
+        serverCode: "https://github.com/sheikhzim2004-del/fable-server",
+        liveLink: "https://fable-hazel.vercel.app",
+    },
+    {
+        id: 2,
         title: "DocAppoint - Healthcare & Doctor Appointment Manager",
         description: "Full-Stack Healthcare Booking System with Real-Time Management.",
         image: "/images/project-1.png",
@@ -11,7 +22,7 @@ export const projectsData = [
         liveLink: "https://doctor-appointment-manager-rose.vercel.app",
     },
     {
-        id: 2,
+        id: 3,
         title: "SkillSphere - Interactive Online Learning Platform",
         description: "Full-Stack E-Learning Application with BetterAuth & Dynamic Course Search.",
         image: "/images/project-2.png",
@@ -22,7 +33,7 @@ export const projectsData = [
         liveLink: "https://skillsphere-online-learning-platfor-wine.vercel.app",
     },
     {
-        id: 3,
+        id: 4,
         title: "The Dragon News - Online News & Media Portal",
         description: "Dynamic Portal for Categorized Breaking News & Real-Time Updates.",
         image: "/images/project-3.png",

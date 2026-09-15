@@ -14,8 +14,14 @@ import {
     SiTailwindcss,
     SiMongodb,
     SiExpress,
-    SiGithub
+    SiGithub,
+    SiBetterauth,
+    SiJsonwebtokens,
+    SiNpm,
+    SiHeroui
 } from 'react-icons/si';
+import { TbBrandFramerMotion, TbBrandReactNative, TbBrandVercelFilled } from 'react-icons/tb';
+import { VscVscode } from 'react-icons/vsc';
 
 export default function SkillsSection() {
     const skillCategories = [
@@ -27,6 +33,8 @@ export default function SkillsSection() {
                 { name: 'JavaScript', icon: <FaJs className="text-yellow-400" /> },
                 { name: 'HTML5', icon: <FaHtml5 className="text-orange-500" /> },
                 { name: 'CSS3', icon: <FaCss3Alt className="text-blue-500" /> },
+                { name: 'HeroUI', icon: <SiHeroui  /> },
+                { name: 'Framer Motion', icon: <TbBrandFramerMotion /> },
             ],
         },
         {
@@ -35,6 +43,8 @@ export default function SkillsSection() {
                 { name: 'Node.js', icon: <FaNodeJs className="text-green-500" /> },
                 { name: 'Express.js', icon: <SiExpress className="text-gray-300" /> },
                 { name: 'MongoDB', icon: <SiMongodb className="text-green-400" /> },
+                { name: 'BetterAuth', icon: <SiBetterauth className="text-purple-400" /> },
+                { name: 'JWT', icon: <SiJsonwebtokens className="text-yellow-400" /> },
             ],
         },
         {
@@ -44,6 +54,10 @@ export default function SkillsSection() {
                 { name: 'Figma (UI/UX)', icon: <FaFigma className="text-pink-400" /> },
                 { name: 'Git', icon: <FaGitAlt className="text-orange-600" /> },
                 { name: 'GitHub', icon: <SiGithub className="text-white" /> },
+                { name: 'Vercel', icon: <TbBrandVercelFilled className='' /> },
+                { name: 'VS Code', icon: <VscVscode className='text-blue-500' /> },
+                { name: 'NPM', icon: <SiNpm className='text-red-500' /> },
+                { name: 'React Icons', icon: <TbBrandReactNative className='text-shadow-pink-800' /> },
             ],
         },
     ];

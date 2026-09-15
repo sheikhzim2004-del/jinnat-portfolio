@@ -19,9 +19,6 @@ export default function HeroSection() {
                     <TypewriterName text="Hi, I'm"
                         highlightText="Md Jinnat Islam">
                     </TypewriterName>
-                    {/* <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white tracking-tight">
-                        Hi, I&apos;m <span className="text-accent-blue">Md Jinnat Islam</span>
-                    </h1> */}
 
                     <h2 className="text-xl sm:text-2xl font-medium text-gray-300">
                         Frontend & Web Developer
@@ -80,23 +77,6 @@ export default function HeroSection() {
                                     alt="Profile"
                                     className="w-full h-full object-cover"
                                 />
-                            </div>
-                        </div>
-
-                        {/* badge */}
-                        <div className="absolute -top-2 -left-6 sm:-left-10 animate-float-slow">
-                            <div className="flex items-center gap-2 bg-card-dark/90 backdrop-blur-md border border-accent-cyan/40 text-text-primary text-xs sm:text-sm font-medium px-3 py-1.5 rounded-full shadow-[0_0_15px_rgba(6,182,212,0.35)]">
-                                <span className="relative flex h-2 w-2">
-                                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                                    <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
-                                </span>
-                                Open to Hire
-                            </div>
-                        </div>
-
-                        <div className="absolute top-6 -right-8 sm:-right-14 animate-float">
-                            <div className="bg-card-dark/90 backdrop-blur-md border border-accent-blue/40 text-text-primary text-xs sm:text-sm font-medium px-3 py-1.5 rounded-full shadow-[0_0_15px_rgba(59,130,246,0.35)]">
-                                MERN Stack Specialist
                             </div>
                         </div>
 

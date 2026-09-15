@@ -3,7 +3,7 @@ export const projectsData = [
         id: 1,
         title: "Fable - Ebook Publishing & Marketplace Platform",
         description: "A Modern Digital Publishing Ecosystem for Writers, Readers, and Admins.",
-        image: "/images/project-1.png",
+        image: "/images/project-4.jpg",
         tags: ["Next.js", "React", "MongoDB", "Tailwind CSS", "Framer Motion", "HeroUI", "Stripe"],
 
         clientCode: "https://github.com/sheikhzim2004-del/fable",
@@ -14,7 +14,7 @@ export const projectsData = [
         id: 2,
         title: "DocAppoint - Healthcare & Doctor Appointment Manager",
         description: "Full-Stack Healthcare Booking System with Real-Time Management.",
-        image: "/images/project-1.png",
+        image: "/images/project-1.jpg",
         tags: ["React", "Node.js", "MongoDB", "Express"],
 
         clientCode: "https://github.com/sheikhzim2004-del/doctor-appointment-manager",
@@ -25,7 +25,7 @@ export const projectsData = [
         id: 3,
         title: "SkillSphere - Interactive Online Learning Platform",
         description: "Full-Stack E-Learning Application with BetterAuth & Dynamic Course Search.",
-        image: "/images/project-2.png",
+        image: "/images/project-2.jpg",
         tags: ["React", "Express.js", "MongoDB", "REST API"],
 
         clientCode: "https://github.com/sheikhzim2004-del/skillsphere-online-learning-platform",

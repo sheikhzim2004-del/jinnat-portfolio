@@ -16,7 +16,7 @@ export default function HeroSection() {
                         </span>
                     </div>
 
-                    <TypewriterName text="Hi, I'm"
+                    <TypewriterName text="Hi, I'm" 
                         highlightText="Md Jinnat Islam">
                     </TypewriterName>
 

@@ -4,6 +4,7 @@ import SkillsSection from "../components/sections/SkillsSection";
 import ProjectsSection from "../components/sections/ProjectsSection";
 import ContactsSection from "../components/sections/ContactsSection";
 import FadeIn from "../components/UI/FadeIn"
+import ServicesSection from "@/components/sections/ServicesSection";
 
 
 export default function Home() {
@@ -14,6 +15,9 @@ export default function Home() {
       </FadeIn>
       <FadeIn>
           <AboutSection></AboutSection>
+      </FadeIn>
+      <FadeIn>
+            <ServicesSection></ServicesSection>
       </FadeIn>
       <FadeIn>
           <SkillsSection></SkillsSection>
